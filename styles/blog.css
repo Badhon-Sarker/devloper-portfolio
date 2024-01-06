@@ -107,7 +107,7 @@ nav a{ text-decoration: none;
 
 main{
     max-width: 1140px;
-    margin: 0px auto;
+        margin: 0px auto;}
 
 /* section style */
 .about{
@@ -172,3 +172,107 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 }
+
+.experience-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 71px;
+    padding: 20px;
+}
+
+.education-div{
+   text-align: left;
+}
+
+.education-title{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+}
+
+.experience-title{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+}
+
+.experience-name, .institute-name{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 700;
+}
+
+.institute-year, .experience-year{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+}
+
+.institute-description, .experience-description{
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin-bottom: 30px;
+}
+
+.institute-year{
+    margin-top :-15px;
+}
+
+.experience-year{
+    margin-top: -15px;
+}
+
+.download-cv{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between ;
+   gap: 100px;
+   background: #FFF8F3;
+    margin: 25px;
+    padding: 130px 200px;
+
+
+}
+
+.footer-column{
+    text-align: center;
+    padding: 50px;
+    border: 50px;
+}
+
+
+
+.footer-column{
+    width: 50%;
+ 
+}
+
+.social-links a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: #FFF;
+    width: 100%;
+    border: 0;
+}
+
