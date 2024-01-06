@@ -105,13 +105,16 @@ nav a{ text-decoration: none;
 
 /* main section style */
 
+main{
+    max-width: 1140px;
+    margin: 0px auto;
+
 /* section style */
 .about{
-    max-width: 1140px;
-    padding: 131px;
+    padding: 50px;
     border-radius: 10px;
      background: #FFF8F3; 
-     margin: 0px 230px 130px 230px;
+     margin: 50px 150px 50px 150 px;
     
 }
 
@@ -130,9 +133,18 @@ nav a{ text-decoration: none;
     display: flex;
     gap: 50px;
     justify-content: space-around;
+ 
 }
 
+.what-i-do-container{
+    margin-top: 130px;
+}
 
 .about-info{
   text-align: center;
+}
+
+#what-i-do{
+    color: #757575;
+    padding: 30px 150px;
 }
